@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  >
+<listeners>
+        <listener class-name="Base.Listners"/>
+    </listeners>
+  
+  <test thread-count="5" name="TC001Landing">
+    <classes>     
+      <class name="Testcase.TC001Landing"/>
+       </classes>      
+       </test>
+       
+        <test name ="TC002Creatingaccount">
+        <classes>
+      <class name="Testcase.TC002Creatingaccount"/>
+      </classes>
+       </test>
+      
+       <test name ="TC003SignIn">
+       <classes>
+      <class name="Testcase.TC003SignIn"/>
+      </classes>
+      </test>
+         
+            <test  name ="TC004Logout">
+             <classes>
+      <class name="Testcase.TC004Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

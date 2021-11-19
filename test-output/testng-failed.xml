@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Base.Listners"/>
+  </listeners>
+  <test thread-count="5" name="TC003SignIn(failed)">
+    <classes>
+      <class name="Testcase.TC003SignIn">
+        <methods>
+          <include name="singin"/>
+          <include name="tearDown"/>
+          <include name="WebdriverInit"/>
+        </methods>
+      </class> <!-- Testcase.TC003SignIn -->
+    </classes>
+  </test> <!-- TC003SignIn(failed) -->
+  <test thread-count="5" name="TC004Logout(failed)">
+    <classes>
+      <class name="Testcase.TC004Logout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="WebdriverInit"/>
+          <include name="Loggingout"/>
+        </methods>
+      </class> <!-- Testcase.TC004Logout -->
+    </classes>
+  </test> <!-- TC004Logout(failed) -->
+</suite> <!-- Failed suite [Suite] -->

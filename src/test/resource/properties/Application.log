@@ -1,0 +1,24 @@
+19/11/2021 16:00:57 qaLogger chromeBrowserName is chrome 
+19/11/2021 16:01:08 qaLogger Loading url
+19/11/2021 16:01:08 qaLogger Getting actual name of page
+19/11/2021 16:01:08 qaLogger Matching Actual page name and expected page name
+19/11/2021 16:01:13 qaLogger Clicked on button
+19/11/2021 16:01:18 qaLogger Clicked on Create account button
+19/11/2021 16:01:23 qaLogger Entered First Name
+19/11/2021 16:01:24 qaLogger Entered Last Name
+19/11/2021 16:01:24 qaLogger Entered email 
+19/11/2021 16:01:25 qaLogger Entered Password
+19/11/2021 16:01:25 qaLogger Entered Confirm Password
+19/11/2021 16:01:26 qaLogger Clicked on Submit button
+19/11/2021 16:01:42 qaLogger Clicked on Sigin button
+19/11/2021 16:01:46 qaLogger Entered email
+19/11/2021 16:01:47 qaLogger Entered Password
+19/11/2021 16:01:47 qaLogger Clicked on Submit button
+19/11/2021 16:01:47 qaLogger Getting actual name of page 
+19/11/2021 16:01:54 qaLogger Clicked on Sigin button
+19/11/2021 16:01:57 qaLogger Entered email
+19/11/2021 16:01:59 qaLogger Entered Password
+19/11/2021 16:02:00 qaLogger Clicked on Submit button
+19/11/2021 16:02:00 qaLogger Getting actual name of page 
+19/11/2021 16:02:02 qaLogger Click on Account button
+19/11/2021 16:02:10 qaLogger Successfully Signout 
